@@ -1,0 +1,73 @@
+h1,
+h2 {
+    font-family: 'Comfortaa';
+}
+
+h3 {
+    font-family: 'Faster One';
+}
+
+p {
+    font-family: 'Comfortaa';
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.foto {
+    background: url(/images/madpag.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+    position: static;
+}
+
+.misfotos {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.secciones {
+    background-color: gray;
+    font-family: 'Comfortaa';
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+
+
+}
+
+.formulario {
+    background-color: peachpuff;
+    padding-top: 0px;
+}
+
+.firmado {
+    max-width: 100%;
+    height: auto;
+    border-radius: 75px;
+}
+
+.hrstyle {
+    border: 1px solid peachpuff;
+}
+
+.scroll_section {
+    scroll-margin-top: 60px;
+
+}
+
+footer {
+    background-color: rgb(240, 167, 133);
+    padding-top: 15px;
+}
+
+.padding {
+    padding-top: 75px;
+}
