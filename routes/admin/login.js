@@ -9,13 +9,13 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/logout', function (req, res, next) {
-    res.session.destroy();
+    req.session.destroy();
     res.render('admin/login', {
         layout: 'admin/layout'
     });
 });
 
-router.post('/'), async (req, res, next) => {
+router.post('/', async (req, res, next) => {
     try {
 
         console.log(req.body);
@@ -38,6 +38,6 @@ router.post('/'), async (req, res, next) => {
     } catch (error) {
         console.log(error)
     }
-}
+})
 
 module.exports = router;
