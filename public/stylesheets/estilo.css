@@ -71,3 +71,43 @@ footer {
 .padding {
     padding-top: 75px;
 }
+
+.lista-novedades {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li {
+    margin: 20px 0;
+}
+
+.lista-novedades li a {
+    background-color: peachpuff;
+    font-family: 'Comfortaa';
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: grey;
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50 px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 7rem;
+    opacity: 1;
+}
